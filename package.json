@@ -4,9 +4,9 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
- "dev": "nodemon --exec tsx src/server.ts",
-  "start": "tsx src/server.ts"
-},
+    "dev": "nodemon --exec tsx src/server.ts",
+    "start": "tsx src/server.ts"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -16,8 +16,10 @@
     "cors": "^2.8.6",
     "dotenv": "^17.4.2",
     "express": "^5.2.1",
+    "firebase": "^12.15.0",
     "firebase-admin": "^13.10.0",
-    "jsonwebtoken": "^9.0.3"
+    "jsonwebtoken": "^9.0.3",
+    "zod": "^4.4.3"
   },
   "devDependencies": {
     "@types/bcrypt": "^6.0.0",
